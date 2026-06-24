@@ -1,9 +1,9 @@
 pipeline {
     agent any
-    tools {
-        maven 'M39'
-        jdk 'JDK17'
-    }
+//     tools {
+//         maven 'M39'
+//         jdk 'JDK17'
+//     }
     environment {
         IMAGE_NAME = "springboot-hello"
         IMAGE_TAG = "v1.0"
